@@ -261,7 +261,7 @@ h6 {
 
 .caption-content {
 	visibility: hidden;
-	
+
 }
 
 .caption:hover .caption-content {
@@ -435,6 +435,12 @@ a:hover, a:focus, a:active {
 	color: gray;
 }
 
+.innovasium-title {
+  text-align: center;
+  font-size: 80px;
+  color: black;
+}
+
 .perkin-elmer-description {
 	text-align: center;
 	font-size: 45px;
@@ -443,7 +449,15 @@ a:hover, a:focus, a:active {
 
 .work-term-report-head {
 	color: #666666;
-	font-size: 50px; 
+	font-size: 50px;
 	text-align: left;
-	
+
+}
+
+.horizontalFlex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
 }
